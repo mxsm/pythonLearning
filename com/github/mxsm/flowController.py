@@ -1,5 +1,5 @@
 import  math
-
+import  numpy as  np
 number = 23
 guess = int(input('Enter an integer : '))
 
@@ -17,3 +17,6 @@ else:
     # 你必须通过猜测一个大于（>）设置数的数字来到达这里。
 
 print('Done')
+
+a = np.array([[1,  2],  [3,  4]])
+print(a)
