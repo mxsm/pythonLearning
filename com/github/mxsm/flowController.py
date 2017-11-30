@@ -1,7 +1,7 @@
 import  math
 import  numpy as  np
 number = 23
-guess = int(input('Enter an integer : '))
+guess = 2
 
 if guess == number:
     # 新块从这里开始
@@ -19,4 +19,13 @@ else:
 print('Done')
 
 a = np.array([[1,  2],  [3,  4]])
-print(a)
+
+#for
+words = ['cat', 'window', 'defenestrate']
+for w in words:
+    print(w)
+for w in  words[:]:
+    print(w)
+
+for nu in range(10,50,6):
+    print(nu)
